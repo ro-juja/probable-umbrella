@@ -1,10 +1,15 @@
-# probable-umbrella
-Equipo 3 - Arquitectura de Producto de Datos
+# Probable-Umbrella ☂
+
+![](images/ProbableUmbrella.png)
 
 Team members:
 
-- Victor Erasto Rivera
-- Alejandro Muñoz
-- Juan Humberto Escalona
-- Salvador García
-- Rodrigo Juárez
+| **Name** |**clave única**|**Github handler**| 
+|:---:|:---:|:---:|:---:|
+| Victor Erasto Rivera | | [@vviiccttoorr](https://github.com/vviiccttoorr)| 
+| Alejandro Muñoz | | |
+| Juan Humberto Escalona | 203131 | [@Juanes8](https://github.com/Juanes8)| 
+| Salvador García  |  | | 
+| Rodrigo Juárez | | [@ro-juja](https://github.com/ro-juja)| 
+
+
