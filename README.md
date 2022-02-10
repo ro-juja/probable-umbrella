@@ -21,4 +21,4 @@ We are a multidisciplinary team capable of solving any given task thanks to our 
 - Salvador García
 - Rodrigo Juárez
 
-All of us a currently pursuing a Master's degree on Data Science.  
+All of us are currently pursuing a Master's degree on Data Science at ITAM.  🎓 
