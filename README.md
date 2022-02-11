@@ -7,7 +7,7 @@ Team members:
 |**Name**|**Email**|**CU**|**Github handler**| 
 |:---:|:---:|:---:|:---:|
 | Victor Erasto Rivera | victor.rivera.gonzalez@gmail.com| | [@vviiccttoorr](https://github.com/vviiccttoorr)| 
-| Alejandro Muñoz | | | |
+| Alejandro Muñoz | alex.monfis@gmail.com | [@Monfiz](https://github.com/Monfiz) | 
 | Juan Humberto Escalona| jh.escalona.s@gmail.com | 203131 | [@Juanes8](https://github.com/Juanes8)| 
 | Salvador García  | | | | 
 | Rodrigo Juárez | rodrigo.juarezjaramillo@gmail.com | 145804 | [@ro-juja](https://github.com/ro-juja)| 
@@ -16,7 +16,7 @@ Team members:
 
 We are a multidisciplinary team capable of solving any given task thanks to our different perspectives. Here is a sneak peek form us.
 - Victor, 
-- Alejandro Muñoz
+- Alejandro Muñoz, Engineer in physics and Communicator of science, good at explaining and exploring ideas.  
 - Juan Escalona, Mechanical and Electrical engineer with sales experience, customer driven and a Machine Learning enthusiast.
 - Salvador García
 - Rodrigo Juárez, Business Engineer with a strong analytical and financial education.
