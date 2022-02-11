@@ -1,6 +1,6 @@
 # Probable-Umbrella ☂
 
-![](images/ProbableUmbrella.png)
+![](images/data_rain.gif)
 
 Team members:
 
