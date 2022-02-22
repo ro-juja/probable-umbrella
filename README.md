@@ -9,7 +9,7 @@ Team members:
 | Victor Erasto Rivera | victor.rivera.gonzalez@gmail.com| 97105 | [@vviiccttoorr](https://github.com/vviiccttoorr)| 
 | Alejandro Muñoz | alex.monfis@gmail.com | 203021 | [@Monfiz](https://github.com/Monfiz) | 
 | Juan Humberto Escalona| jh.escalona.s@gmail.com | 203131 | [@Juanes8](https://github.com/Juanes8)| 
-| Salvador García  | savrgg@gmail.com | 119718 | @savrgg(https://github.com/savrgg) | 
+| Salvador García  | savrgg@gmail.com | 119718 | [@savrgg](https://github.com/savrgg) | 
 | Rodrigo Juárez | rodrigo.juarezjaramillo@gmail.com | 145804 | [@ro-juja](https://github.com/ro-juja)| 
 
 ## Why are we an awesome team?
