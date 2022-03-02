@@ -1,3 +1,4 @@
+#Tutorial youtube https://www.youtube.com/watch?v=p71SWzjeqtk
 #Código obtenido de: https://github.com/devopsjourney1/cmc-api/blob/master/cmc-api.py
 import requests
 from requests import Session
