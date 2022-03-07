@@ -53,7 +53,7 @@ Bitcoin investors in general and financial rating companies, such as Moddys, S&P
 
 Users will make queries to our application about our prices forecasts.
 
-###**3. Data Product Architecture  Diagram**
+### **3. Data Product Architecture  Diagram**
 
 ![](https://i.imgur.com/URvdJK6.png)
 
@@ -86,8 +86,6 @@ Random forest and neural networks adapt well to nonlinear behavior that could be
 
 We are planning to use a pretrained model of Sentiment Analysis from [Hugging Face](https://huggingface.co/sagorsarker/codeswitch-spaeng-sentiment-analysis-lince) and [Custom sentiment analysis](https://cloud.google.com/natural-language#section-6) that is part of Google Natural Language API.
 
-3. We accept models from logistic regression to complex neural networks.
-
 
 ### **6. Evaluation**
 
@@ -103,10 +101,15 @@ To be honest this relationship between the tweet’s sentiments and the price of
 ### **7. Inference**
 
 1. Will you be doing online prediction or batch prediction or a combination of both?
+
 We will be doing batch prediction, as we will retrieve the most relavant tweets of day to make our predictions. 
+
 3. Will the inference run on-device or through a server?
+
 The inference will run through a server. 
+
 5. Can you run inference on CPUs or an edge device or do you need GPUs?
+
 We plan to run it on CPUs. 
 
 ### **8. Compute**
@@ -145,10 +148,13 @@ The main difficulty would be to find a relationshing among the tweets and the pr
 ### **10. Pre-mortems**
 
 - What are the risky aspects of the project? i. e.g. not enough data, limited compute resources, not knowing how to implement an interface, network latency, inference latency, etc.
+
 The risk we are facing on this project first is not to find a relationship between the tweets and the price of bitcoin. We still do not know if the compute resources we have are going to be enough to do the analysis we plan. 
-- If your team fails to build the application you want, what do you think might have caused the failure?
 
 - What are the limitations of your application?
+
 Our application will only be able to predict whether the price will increase or decrease based on the tweets of the day. It won't be able to predict the exact price of the day.    
+
 - What are the potential biases of your application?
+
 The main bias for our application is that we are only going to use tweets in English. Perhaps there is a stronger relationship with another language than with English that we won't be able to notice.
