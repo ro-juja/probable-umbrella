@@ -23,8 +23,8 @@ We are a multidisciplinary team (honestly, we have never met in person) capable 
 
 All of us are currently pursuing a Master's degree on Data Science at ITAM.  🎓 
 
-
-**1. Objectives**
+## Project Description
+###**1. Objectives**
 
 1. What is the problem that your Data Product  will solve?
 
@@ -43,23 +43,22 @@ We are planning to make a Sentiment Analysis and Neuronal Network to predict Bit
 Business objectives:
 Our business plan is to develop a unique tool in the market with the most sophisticated technology in order to support all the financial stakeholders' decision-making. We want to make a powerful tool to bear the financial investment risk. As a starting point, we are going to predict Bitcoin's price, but our goal is to be able to predict the price of commodities, shares, etc. 
 
-**2. Users**
+###**2. Users**
 
 1. Who will be the users of your application?
+
 Bitcoin investors in general and financial rating companies, such as Moddys, S&P, and Fitch. 
 
 2. How are users going to interact with your application?
+
 Users will make queries to our application about our prices forecasts.
 
-**3. Data Product Architecture  Diagram**
+###**3. Data Product Architecture  Diagram**
 
 ![](https://i.imgur.com/URvdJK6.png)
 
 
-
-
-
-**4. Data**
+###**4. Data**
 
 a. Where would you get your data from? How much data would you need? Is there anything publicly available or do you need to build your own dataset?
 
@@ -71,7 +70,7 @@ We will use 1 million tweets to train our model, which will be data from the las
 [Yahoo Finance API](https://www.yahoofinanceapi.com/)
 [Twitter API](https://developer.twitter.com/)
 
-**5. Modeling**
+###**5. Modeling**
 
 1. What types of models/architectures will you be using for this application? Which ones would you start with?
 
@@ -90,8 +89,7 @@ We are planning to use a pretrained model of Sentiment Analysis from [Hugging Fa
 3. We accept models from logistic regression to complex neural networks.
 
 
-
-**6. Evaluation**
+###**6. Evaluation**
 
 1. How would you evaluate your model performance, both during training and inference?
 
@@ -99,11 +97,10 @@ As we said before this is a regression problem, so we will use metrics as mse(me
 
 2. How would you evaluate whether your application satisfies its objectives?
 
-
 To be honest this relationship between the tweet’s sentiments and the price of coins is merely speculative from us. There may not be any relationship between them, and we may face the case that our models will perform poorly. So, our definition of success will be to portray honestly the relationship of the data. We may find a strong correlation, softer or none at all. It is an experiment, and anything can happen.
 
 
-**7. Inference**
+###**7. Inference**
 
 1. Will you be doing online prediction or batch prediction or a combination of both?
 We will be doing batch prediction, as we will retrieve the most relavant tweets of day to make our predictions. 
@@ -112,11 +109,10 @@ The inference will run through a server.
 5. Can you run inference on CPUs or an edge device or do you need GPUs?
 We plan to run it on CPUs. 
 
-**8. Compute**
+###**8. Compute**
 
 1. How much compute do you need to develop this application as a market-ready product?
     1. To train your model (if you train your own model): do you need GPUs/TPUs or just CPUs? How many machines? For how long?
-    
     It will depend on the model we will put to work. Maybe we find the problem can be solved using linear regression, and there is no need for GPUs and tons of computational power like with a neural network, or maybe the data requires that computational help. 
     
     3. To serve your model: can your models make predictions on CPUs?
@@ -135,7 +131,7 @@ Yahoo Finance Data Base of approx 100 Mb
 
 According to [NetApp](https://cloud.netapp.com/blog/google-cloud-pricing-vs-aws-a-fair-comparison-gcp-aws-cvo-blg), the estimation price per hour used on Google Cloud is $0.813. 
     
-**9. MVP**
+###**9. MVP**
 
 1. What would the MVP be?
 
@@ -146,9 +142,7 @@ Our main goal would be to predict Bitcoin's price, but the MVP would be a daily 
 
 The main difficulty would be to find a relationshing among the tweets and the price of bitcoin.  
 
-
-
-**10. Pre-mortems**
+###**10. Pre-mortems**
 
 - What are the risky aspects of the project? i. e.g. not enough data, limited compute resources, not knowing how to implement an interface, network latency, inference latency, etc.
 The risk we are facing on this project first is not to find a relationship between the tweets and the price of bitcoin. We still do not know if the compute resources we have are going to be enough to do the analysis we plan. 
