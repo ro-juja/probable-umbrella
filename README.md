@@ -26,45 +26,30 @@ All of us are currently pursuing a Master's degree on Data Science at ITAM.  ðŸŽ
 ## Project Description
 ### **1. Objectives**
 
-1. What is the problem that your Data Product  will solve?
-
 Cryptocurrency prices heavily depend on the demand side of the market. The beliefs and expectations on prices make this market highly volatile. There are complications to aggregate beliefs and expectations of the market on cryptocurrency prices.
 
 The problem we want to solve is the extraction of positive or negative sentiments from beliefs and expectations. This is very important for investment decision-making by traders, portfolio managers, and investors. Sentiment analysis models can provide an efficient method for extracting actionable signals. However, financial sentiment analysis is challenging due to domain-specific language and unavailability of large labeled datasets.
 
 Our Data Product will predict cryptocurrencies prices, based on past and current prices movements, our model will take in count a general sentiment analysis, based on the latest news posted on Twitter.
 
+In order to solve the problem we had discussed before, we are planning to make a Sentiment Analysis and Neuronal Network to predict Bitcoin prices. Sentiment Analysis will be used in order to predict the confidence of the newspapers' headlines and people's tweets.  
 
-2. If a company was to use this application, what would be their ML objectives and business objectives?
+Of course, our main goal is to help the society with our work, so we are planning to develop a unique tool in the market with the most sophisticated technology in order to support all the financial stakeholders' decision-making. We want to make a powerful tool to bear the financial investment risk. As a starting point, we are going to predict Bitcoin's price, but our goal is to be able to predict the price of commodities, shares, etc. 
 
-Machine Learning objectives:
-We are planning to make a Sentiment Analysis and Neuronal Network to predict Bitcoin prices. Sentiment Analysis will be used in order to predict the confidence of the newspapers' headlines and people's tweets. 
+Society, as a whole, will benefit from our work, however, the channels through which we hope it will be positively affected are:
 
-Business objectives:
-Our business plan is to develop a unique tool in the market with the most sophisticated technology in order to support all the financial stakeholders' decision-making. We want to make a powerful tool to bear the financial investment risk. As a starting point, we are going to predict Bitcoin's price, but our goal is to be able to predict the price of commodities, shares, etc. 
+Bitcoin investors in general and financial rating companies, such as Moddys, S&P, and Fitch, making queries to our application about our prices forecasts.
 
-### **2. Users**
 
-1. Who will be the users of your application?
-
-Bitcoin investors in general and financial rating companies, such as Moddys, S&P, and Fitch. 
-
-2. How are users going to interact with your application?
-
-Users will make queries to our application about our prices forecasts.
-
-### **3. Data Product Architecture  Diagram**
+### **Our Product Architecture  Diagram looks like this:**
 
 ![](https://i.imgur.com/URvdJK6.png)
 
 
-### **4. Data**
+So that our users trust our platform, we will explain what data we will use to carry out our project:
+We will use YahooFinance API and Twitter's API in order to feed our model. We are planning to use only publicly available data for stakeholders. ALso we will make use of o track idividual prices of different coins. We will use 10,000 tweets to train our model, which will be data from the last months of 2020 up today. For the bitcoin price forecast, we will use the data for this same period. 
 
-a. Where would you get your data from? How much data would you need? Is there anything publicly available or do you need to build your own dataset?
-
-We will use YahooFinance API and Twitter's API in order to feed our model. We are planning to use only publicly available data for stakeholders. ALso we will make use of o track idividual prices of different coins.  
-
-We will use 1 million tweets to train our model, which will be data from the last months of 2020 up today. For the bitcoin price forecast, we will use the data for this same period. 
+Our Data sources are public and available to everyone. If you want to investigate more about the origin, we leave you the following hyperlinks:
 
 [Coin market API](https://coinmarketcap.com/api/documentation/v1/)
 [Yahoo Finance API](https://www.yahoofinanceapi.com/)
