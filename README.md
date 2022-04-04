@@ -1,6 +1,9 @@
 # Cryptomaniatics
+<p align="center">
+  <img width="400" height="400" src="https://github.com/ro-juja/probable-umbrella/blob/ca82415746efb7da244d8d6236340324158a555d/images/crypto.gif">
+</p>
 
-![](images/data_rain.gif)
+<center>
 
 |**Name**|**Email**|**CU**|**Github handler**| 
 |:---:|:---:|:---:|:---:|
@@ -9,6 +12,8 @@
 | Juan Humberto Escalona| jh.escalona.s@gmail.com | 203131 | [@Juanes8](https://github.com/Juanes8)| 
 | Salvador García  | savrgg@gmail.com | 119718 | [@savrgg](https://github.com/savrgg) | 
 | Rodrigo Juárez | rodrigo.juarezjaramillo@gmail.com | 145804 | [@ro-juja](https://github.com/ro-juja)| 
+    
+</center>
 
 ## About us:
 
