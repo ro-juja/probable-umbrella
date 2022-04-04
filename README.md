@@ -1,7 +1,7 @@
 # Cryptomaniatics
-<p align="center">
+
   <img width="400" height="400" src="https://github.com/ro-juja/probable-umbrella/blob/ca82415746efb7da244d8d6236340324158a555d/images/crypto.gif">
-</p>
+
 
 <center>
 
