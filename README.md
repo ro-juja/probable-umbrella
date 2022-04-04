@@ -1,8 +1,6 @@
-# Probable-Umbrella ☂
+# Cryptomaniatics
 
 ![](images/data_rain.gif)
-
-Team members:
 
 |**Name**|**Email**|**CU**|**Github handler**| 
 |:---:|:---:|:---:|:---:|
@@ -12,7 +10,7 @@ Team members:
 | Salvador García  | savrgg@gmail.com | 119718 | [@savrgg](https://github.com/savrgg) | 
 | Rodrigo Juárez | rodrigo.juarezjaramillo@gmail.com | 145804 | [@ro-juja](https://github.com/ro-juja)| 
 
-## Why are we an awesome team?
+## About us:
 
 We are a multidisciplinary team (honestly, we have never met in person) capable of solving any given task thanks to our different perspectives (well, just perspectives from engineers and economists). Here is a sneak peek form us.
 - Victor, Economist and Social Scientist with experience on public policy
@@ -24,7 +22,7 @@ We are a multidisciplinary team (honestly, we have never met in person) capable 
 All of us are currently pursuing a Master's degree on Data Science at ITAM.  🎓 
 
 ## Project Description
-### **1. Objectives**
+### **Objectives**
 
 Cryptocurrency prices heavily depend on the demand side of the market. The beliefs and expectations on prices make this market highly volatile. There are complications to aggregate beliefs and expectations of the market on cryptocurrency prices.
 
@@ -55,9 +53,7 @@ Our Data sources are public and available to everyone. If you want to investigat
 [Yahoo Finance API](https://www.yahoofinanceapi.com/)
 [Twitter API](https://developer.twitter.com/)
 
-### **5. Modeling**
-
-1. What types of models/architectures will you be using for this application? Which ones would you start with?
+### **Modeling**
 
 Our goal is to predict  bitcoin value, so we are facing a regression problem where we try to make a numeric prediction based on sentiment analisys of tweets related to bitcoin. So, some models that could manage to work well could be:
 
@@ -67,79 +63,32 @@ Our goal is to predict  bitcoin value, so we are facing a regression problem whe
 
 Random forest and neural networks adapt well to nonlinear behavior that could be found on the data. But as we start retrieving data and doing the EDA process, we will probably update or change these proposals. 
 
-2. You’re free to train a model from scratch or use a pretrained model.
-
 We are planning to use a pretrained model of Sentiment Analysis from [Hugging Face](https://huggingface.co/sagorsarker/codeswitch-spaeng-sentiment-analysis-lince) and [Custom sentiment analysis](https://cloud.google.com/natural-language#section-6) that is part of Google Natural Language API.
 
 
-### **6. Evaluation**
+### **Evaluation**
 
-1. How would you evaluate your model performance, both during training and inference?
-
-As we said before this is a regression problem, so we will use metrics as mse(mean squared error), mae(mean absolute error), r squared to evaluate the performance of our model. 
-
-2. How would you evaluate whether your application satisfies its objectives?
-
-To be honest this relationship between the tweet’s sentiments and the price of coins is merely speculative from us. There may not be any relationship between them, and we may face the case that our models will perform poorly. So, our definition of success will be to portray honestly the relationship of the data. We may find a strong correlation, softer or none at all. It is an experiment, and anything can happen.
+As we said before this is a regression problem, so we will use metrics as mse(mean squared error), mae(mean absolute error), r squared to evaluate the performance of our model. The tweet’s sentiments and the price of coins is merely speculative from us. There may not be any relationship between them, and we may face the case that our models will perform poorly. So, our definition of success will be to portray honestly the relationship of the data. We may find a strong correlation, softer or none at all. It is an experiment, and anything can happen.
 
 
-### **7. Inference**
-
-1. Will you be doing online prediction or batch prediction or a combination of both?
-
-We will be doing batch prediction, as we will retrieve the most relavant tweets of day to make our predictions. 
-
-3. Will the inference run on-device or through a server?
-
-The inference will run through a server. 
-
-5. Can you run inference on CPUs or an edge device or do you need GPUs?
-
-We plan to run it on CPUs. 
-
-### **8. Compute**
-
-1. How much compute do you need to develop this application as a market-ready product?
-    1. To train your model (if you train your own model): do you need GPUs/TPUs or just CPUs? How many machines? For how long?
-    It will depend on the model we will put to work. Maybe we find the problem can be solved using linear regression, and there is no need for GPUs and tons of computational power like with a neural network, or maybe the data requires that computational help. 
+We will be doing batch prediction, as we will retrieve the most relavant tweets of day to make our predictions. We are planning to run  inference on CPUs,  through a server..To train our model, we are planning to use linear regression, and there is no need for GPUs and tons of computational power like with a neural network, or maybe the data requires that computational help. Our model might be able to  make predictions on CPU, but, again, we will decide after exploring the data.
     
-    3. To serve your model: can your models make predictions on CPUs?
-    Probably yes, but again we will decide after exploring the data.
-    
-2. How much compute do you need to develop this application for this project?
 
-We are planning to work with a Data Base of approximately 1,000,000 tweets. Also, the historical data of the past two years Bitcoin's price. 
+We are planning to work with a Data Base of approximately 10,000 tweets. Also, the historical data of the past two years Bitcoin's price. 
 
 We are estimating a memory usage in BigQuery of approx: 
-1000,000 tweets = 170 Mb
+10,000 tweets = 17 Mb
 Yahoo Finance Data Base of approx 100 Mb
 
-
-4. Feel free to reference machine cost on AWS/GCP to get an estimate of compute cost.
-
-According to [NetApp](https://cloud.netapp.com/blog/google-cloud-pricing-vs-aws-a-fair-comparison-gcp-aws-cvo-blg), the estimation price per hour used on Google Cloud is $0.813. 
+According to [NetApp](https://cloud.netapp.com/blog/google-cloud-pricing-vs-aws-a-fair-comparison-gcp-aws-cvo-blg), the estimation price per hour used on Google Cloud is $0.813. Which is the platform we are planning to use. 
     
-### **9. MVP**
 
-1. What would the MVP be?
+Our main goal would be to predict Bitcoin's price, but the MVP would be a daily prediction of price increases or decreases of bitcoin based on historical data and sentiment analysis. The main difficulty would be to find a relationshing among the tweets and the price of bitcoin.  
 
-Our main goal would be to predict Bitcoin's price, but the MVP would be a daily prediction of price increases or decreases of bitcoin based on historical data and sentiment analysis.
+### **Pre-mortems**
 
-
-2. How difficult is it to get there?
-
-The main difficulty would be to find a relationshing among the tweets and the price of bitcoin.  
-
-### **10. Pre-mortems**
-
-- What are the risky aspects of the project? i. e.g. not enough data, limited compute resources, not knowing how to implement an interface, network latency, inference latency, etc.
-
-The risk we are facing on this project first is not to find a relationship between the tweets and the price of bitcoin. We still do not know if the compute resources we have are going to be enough to do the analysis we plan. 
-
-- What are the limitations of your application?
+Handling this project, we are exposed to certain risks, the risk we are facing on this project first is not to find a relationship between the tweets and the price of bitcoin. We still do not know if the compute resources we have are going to be enough to do the analysis we plan. 
 
 Our application will only be able to predict whether the price will increase or decrease based on the tweets of the day. It won't be able to predict the exact price of the day.    
-
-- What are the potential biases of your application?
 
 The main bias for our application is that we are only going to use tweets in English. Perhaps there is a stronger relationship with another language than with English that we won't be able to notice.
