@@ -32,8 +32,8 @@ def new_tweets(api_key, api_key_secret, access_token, access_token_secret, bucke
     client = storage.Client()
     gcs_bucket = client.get_bucket(bucket)
     
-    for row in result:
-    path = f"tweets/{row['created_at'][:4]}/{row['created_at'][5:7]}/tweet_{row['id']}.json"
-    blob = gcs_bucket.blob(path)
-    with blob.open(mode = 'w') as file:
-        json.dump(row, file)
+    for row in data1:
+        path = f"tweets/{row['created_at'][:4]}/{row['created_at'][5:7]}/tweet_{row['id']}.json"
+        blob = gcs_bucket.blob(path)
+        with blob.open(mode = 'w') as file:
+            json.dump(row, file)
