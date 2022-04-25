@@ -30,9 +30,9 @@ args = {
 
 dag = DAG(
     dag_id = 'New-tweets',
-    schedule_interval = '0 0 * * *'
-    start_date = days_ago(2)
-    tags = ['bash', 'python', 'tweets_crypto']
+    schedule_interval = '0 0 * * *',
+    start_date = days_ago(2),
+    tags = ['bash', 'python', 'tweets_crypto'],
     mas_active_runs = 1 
 )
 
